@@ -1,6 +1,6 @@
 app:
   name: C5
-  port: 8080
+  port: 0.0.0.0:$PORT
   timezone: Asia/Jakarta
   debug: true
   env: dev # dev | stg | prod
