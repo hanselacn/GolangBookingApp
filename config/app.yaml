@@ -42,10 +42,10 @@ redis:
 
 db_write:
   driver: postgres
-  host: db.iljqfhnirfoxiqjhqapd.supabase.co
+  host: aws-0-us-east-1.pooler.supabase.com
   port: 5432
   name: postgres # database name
-  user: postgres # database user
+  user: postgres.iljqfhnirfoxiqjhqapd # database user
   pass: BlHbYuCXFuybh1ej # database password
   max_open: 50
   max_idle: 25
@@ -56,10 +56,10 @@ db_write:
 
 db_read:
   driver: postgres
-  host: db.iljqfhnirfoxiqjhqapd.supabase.co
+  host: aws-0-us-east-1.pooler.supabase.com
   port: 5432
   name: postgres # database name
-  user: postgres # database user
+  user: postgres.iljqfhnirfoxiqjhqapd # database user
   pass: BlHbYuCXFuybh1ej # database password
   max_open: 50
   max_idle: 25
